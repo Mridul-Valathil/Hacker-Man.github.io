@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+header {
+  padding: 37px 130px 37px 130px;
+  background: #fce8e8;
+}
+.logo {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 33px;
+  color: #037b00;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  padding: 0 70px;
+  list-style: none;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+.nav-a:hover {
+  text-decoration: underline;
+  color: rgba(0, 198, 224, 0.952);
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-a {
+  color: #b9b7b7;
+}
+.cta {
+  border: none;
+  background: #ef341b;
+  border-radius: 5px;
+  padding: 9px 35px;
+
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.6875px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: rgb(0, 225, 255);
+}
+
+.a-btn {
+  color: #ffffff;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-img {
+  padding-top: 125px;
+  padding-right: 130px;
+}
+
+.intro-text {
+  padding-top: 100px;
+  padding-left: 130px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 73px;
+  color: #a108ff;
+}
+
+p {
+  width: 600px;
+  padding-top: 40px;
+  padding-left: 130px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+
+  color: #000000;
+}
+
+.login {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-img {
+  padding-left: 130px;
+}
+
+.login {
+  padding-right: 150px;
+  padding-bottom: 200px;
+}
+
+.login-text {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+
+  color: #ef341b;
+}
+
+input {
+  font-size: 20px;
+  color: #7e5353;
+  width: 500px;
+  height: 40px;
+  border: none;
+  background: linear-gradient(
+    270.62deg,
+    rgba(192, 192, 192, 0.4) 0%,
+    rgba(202, 202, 202, 0.2) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+h4 {
+  padding: 30px 0 10px 0;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #9d7171;
+}
+
+h4:hover {
+  text-decoration: underline;
+  padding: 30px 0 10px 0;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #9d7171;
+}
+
+.retry-btn,
+.login-btn {
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+  border: none;
+  width: 216px;
+  height: 57px;
+  border-radius: 10px;
+}
+
+.log-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px 0;
+}
+
+.retry-btn {
+  background: linear-gradient(
+    271.71deg,
+    rgba(253, 10, 54, 0.6) 0.18%,
+    rgba(251, 125, 148, 0.7) 98.52%
+  );
+  border-radius: 10px;
+}
+.retry-btn:hover {
+  background: linear-gradient(
+    271.71deg,
+    rgba(253, 10, 54, 1) 0.18%,
+    rgba(251, 125, 148, 1) 98.52%
+  );
+}
+
+.login-btn {
+  background: linear-gradient(
+    271.71deg,
+    #00a0aa 0.18%,
+    rgba(0, 160, 170, 0.6) 98.52%
+  );
+  border-radius: 10px;
+}
+.login-btn:hover {
+  background: linear-gradient(
+    271.71deg,
+    rgb(18, 133, 141),
+    rgba(0, 160, 170, 1) 98.52%
+  );
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 85px;
+  background: #f3a7a7;
+  color: white;
+}
+
+h5 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
