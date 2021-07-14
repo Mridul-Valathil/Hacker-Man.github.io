@@ -346,7 +346,7 @@ h5 {
   }
 
   #code-img {
-    width: 355px;
+    width: 290px;
   }
 
   .intro-text {
@@ -374,7 +374,7 @@ h5 {
   }
 
   #apple-img {
-    width: 355px;
+    width: 290px;
   }
   .login-sec {
     padding-left: 20px;
@@ -382,7 +382,7 @@ h5 {
   }
 
   input {
-    width: 350px;
+    width: 280px;
   }
 
   /*
@@ -404,11 +404,11 @@ h5 {
 
 */
   .login-btn {
-    margin-left: 19px;
+    margin-left: 30px;
   }
   .retry-btn,
   .login-btn {
-    padding: 0 50px;
+    padding: 0 30px;
     font-size: 20px;
   }
 
