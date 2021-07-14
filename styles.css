@@ -346,18 +346,18 @@ h5 {
   }
 
   #code-img {
-    width: 375px;
+    width: 355px;
   }
 
   .intro-text {
-    width: 350px;
+    width: 310px;
     padding-top: 50px;
     padding-left: 20px;
   }
 
   p {
     font-size: 12px;
-    width: 330px;
+    width: 300px;
     padding-top: 20px;
     padding-left: 25px;
   }
@@ -374,7 +374,7 @@ h5 {
   }
 
   #apple-img {
-    width: 375px;
+    width: 355px;
   }
   .login-sec {
     padding-left: 20px;
@@ -382,7 +382,7 @@ h5 {
   }
 
   input {
-    width: 370px;
+    width: 350px;
   }
 
   /*
@@ -404,7 +404,7 @@ h5 {
 
 */
   .login-btn {
-    margin-left: 39px;
+    margin-left: 19px;
   }
   .retry-btn,
   .login-btn {
