@@ -126,7 +126,7 @@ p {
   padding-left: 130px;
 }
 
-.login {
+.login-sec {
   padding-right: 150px;
   padding-bottom: 200px;
 }
@@ -253,4 +253,206 @@ h5 {
   line-height: 26px;
 
   color: #ffffff;
+}
+
+/* mobile styling */
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 15px 20px;
+    background: #fce8e8;
+  }
+
+  .logo {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #037b00;
+    cursor: pointer;
+  }
+
+  /*.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  */
+  ul {
+    display: none;
+    justify-content: space-between;
+  }
+  /*
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 0 70px;
+    list-style: none;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  .nav-a:hover {
+    text-decoration: underline;
+    color: rgba(0, 198, 224, 0.952);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav-a {
+    color: #b9b7b7;
+  }*/
+  .cta {
+    border: none;
+    background: #ef341b;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    cursor: pointer;
+  }
+
+  /*
+  .cta:hover {
+    background-color: rgb(0, 225, 255);
+  }
+
+  .a-btn {
+    color: #ffffff;
+  }
+*/
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero-img {
+    padding-top: 100px;
+    padding-left: 10px;
+  }
+
+  #code-img {
+    width: 385px;
+  }
+
+  .intro-text {
+    width: 370px;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+
+  .login {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .login-img {
+    padding-left: 10px;
+  }
+
+  #apple-img {
+    width: 385px;
+  }
+  .login-sec {
+    padding-left: 20px;
+    padding-top: 100px;
+  }
+
+  input {
+    width: 380px;
+  }
+
+  /*
+  h4 {
+    padding: 30px 0 20px 0;
+  }
+
+  h4:hover {
+    text-decoration: underline;
+    padding: 30px 0 10px 0;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #9d7171;
+  }
+
+*/
+  .login-btn {
+    margin-left: 49px;
+  }
+  .retry-btn,
+  .login-btn {
+    padding: 0 50px;
+    font-size: 20px;
+  }
+
+  .log-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*
+  .retry-btn {
+    background: linear-gradient(
+      271.71deg,
+      rgba(253, 10, 54, 0.6) 0.18%,
+      rgba(251, 125, 148, 0.7) 98.52%
+    );
+    border-radius: 10px;
+  }
+  .retry-btn:hover {
+    background: linear-gradient(
+      271.71deg,
+      rgba(253, 10, 54, 1) 0.18%,
+      rgba(251, 125, 148, 1) 98.52%
+    );
+  }
+
+  .login-btn {
+    background: linear-gradient(
+      271.71deg,
+      #00a0aa 0.18%,
+      rgba(0, 160, 170, 0.6) 98.52%
+    );
+    border-radius: 10px;
+  }
+  .login-btn:hover {
+    background: linear-gradient(
+      271.71deg,
+      rgb(18, 133, 141),
+      rgba(0, 160, 170, 1) 98.52%
+    );
+  }
+*/
+  footer {
+    height: 50px;
+  }
+  h5 {
+    font-size: 10px;
+  }
 }
