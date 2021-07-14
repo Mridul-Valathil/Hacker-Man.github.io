@@ -259,6 +259,7 @@ h5 {
 
 @media screen and (max-width: 1024px) {
   header {
+    width: auto;
     padding: 15px 20px;
     background: #fce8e8;
   }
@@ -451,6 +452,7 @@ h5 {
 */
   footer {
     height: 50px;
+    width: auto;
   }
   h5 {
     font-size: 10px;
